@@ -131,13 +131,11 @@ const Services = () => {
                 <div>
                   {" "}
                   <div className="block rounded-lg bg-sky-900 shadow-sky-500 shadow-lg mb-16 w-full h-[470px]">
-                    <a href="/">
                       <img
                         className="rounded-t-lg h-56 w-full object-cover"
                         src={imagePath}
                         alt="imageArea"
                       />
-                    </a>
                     <div className="p-6">
                       <h5 className="text-sky-500 mb-2 text-xl font-medium leading-tight dark:text-neutral-50">
                         {name}
