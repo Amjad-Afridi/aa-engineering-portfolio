@@ -80,7 +80,7 @@ const EngineeringServices = () => {
     >
       <div className="flex mb-16">
         <h2 className=" text-sky-500 mx-auto text-5xl font-bold border-b-[1px] border-sky-500 pb-4">
-          Our Engineering Services
+          Engineering Services
         </h2>
       </div>
       <div>
