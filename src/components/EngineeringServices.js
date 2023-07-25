@@ -74,7 +74,10 @@ const EngineeringServices = () => {
     },
   ];
   return (
-    <div name="Engineering Services" className="w-full px-8 h-auto bg-sky-700 py-16 ">
+    <div
+      name="Engineering Services"
+      className="w-full px-8 h-auto bg-sky-700 py-16 "
+    >
       <div className="flex mb-16">
         <h2 className=" text-sky-500 mx-auto text-5xl font-bold border-b-[1px] border-sky-500 pb-4">
           Our Engineering Services
@@ -118,11 +121,11 @@ const EngineeringServices = () => {
                         className="h-32 w-40 border-[1px] border-sky-500 rounded-xl shadow-sky-500 shadow-md p-4 mx-auto "
                       />
                     </div>
-                    <div className="p-6">
-                      <h5 className="text-sky-500 mb-2 text-xl font-medium leading-tight dark:text-neutral-50">
+                    <div className="p-6 text-center">
+                      <h5 className="text-sky-500  mb-2 text-xl font-medium leading-tight dark:text-neutral-50">
                         {name}
                       </h5>
-                      <p className="text-sky-200 mb-4 text-base  dark:text-neutral-200">
+                      <p className="text-sky-200 mb-4  dark:text-neutral-200">
                         {description}
                       </p>
                     </div>

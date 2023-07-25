@@ -17,7 +17,6 @@ import "../index.css";
 
 import { Pagination, Navigation } from "swiper/modules";
 
-// register();
 const Services = () => {
   const machines = [
     {
