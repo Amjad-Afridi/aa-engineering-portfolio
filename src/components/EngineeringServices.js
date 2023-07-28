@@ -115,7 +115,7 @@ const EngineeringServices = () => {
                   {" "}
                   <div className="block rounded-lg bg-sky-900 shadow-sky-600 shadow-md mb-16 w-full h-[270px]">
                     <div className="pt-6">
-                      {id == 6 ? (
+                      {id === 6 ? (
                         <img
                           src={imagePath}
                           alt="imageArea"
