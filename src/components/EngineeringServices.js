@@ -115,11 +115,19 @@ const EngineeringServices = () => {
                   {" "}
                   <div className="block rounded-lg bg-sky-900 shadow-sky-600 shadow-md mb-16 w-full h-[270px]">
                     <div className="pt-6">
-                      <img
-                        src={imagePath}
-                        alt="imageArea"
-                        className="h-32 w-40 border-[1px] border-sky-700 rounded-xl shadow-sky-600 shadow-md p-4 mx-auto "
-                      />
+                      {id == 6 ? (
+                        <img
+                          src={imagePath}
+                          alt="imageArea"
+                          className="h-32 w-64 border-[1px] bg-sky-300 border-sky-600 rounded-xl shadow-sky-600 shadow-md p-4 mx-auto "
+                        />
+                      ) : (
+                        <img
+                          src={imagePath}
+                          alt="imageArea"
+                          className="h-32 w-40 border-[1px] bg-sky-300 border-sky-600 rounded-xl shadow-sky-600 shadow-md p-4 mx-auto "
+                        />
+                      )}
                     </div>
                     <div className="p-6 text-center">
                       <h5 className="text-[#33adb3]  mb-2 text-xl font-medium leading-tight">

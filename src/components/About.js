@@ -11,7 +11,7 @@ const About = () => {
           <div className="flex flex-col gap-8 text-justify text-[#33adb3] max-w-screen-lg justify-center mx-auto ">
             <div className="flex flex-col justify-center gap-2 ">
               <h4 className="font-bold text-lg pl-6">Introduction</h4>
-              <p className="text-sky-200 border-l-2 pl-6 border-[#33adb3] ">
+              <p className="text-sky-300 border-l-2 pl-6 border-[#33adb3] ">
                 Welcome to our company, a leading provider of yarn process
                 machines in the Textile sector. With a strong presence since
                 2007, we have been catering to the major players in the
