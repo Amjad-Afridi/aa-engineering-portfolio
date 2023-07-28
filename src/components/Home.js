@@ -11,7 +11,7 @@ const Home = () => {
           <h1 className="text-5xl xl:text-6xl max-w-lg border-b-[1px] border-[#33adb3] pb-4">
             <span className="text-sky-300">AA</span> ENGINEERING
           </h1>
-          <p className="text-sky-200 text-lg max-w-md ">
+          <p className="text-sky-300 text-lg max-w-md ">
             Leading yarn machine provider since 2007. Top-notch machinery for
             global textile manufacturers, led by Mr. Sohail Abbasi's expertise.
             Quality, reliability, and innovation with Warping, Sizing, Slasher
