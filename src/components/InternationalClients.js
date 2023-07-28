@@ -21,13 +21,13 @@ const InterNationalClients = () => {
   return (
     <div
       name="International Clients"
-      className=" w-full px-8 h-auto bg-sky-700 py-16 "
+      className=" w-full px-8 h-auto bg-sky-950 py-16 "
     >
       <div className="flex">
-        <h2 className=" text-sky-500 mx-auto text-5xl font-bold border-b-[1px] border-sky-500 pb-4">
+        <h2 className=" text-[#33adb3] mx-auto text-5xl font-bold border-b-[1px] border-[#33adb3] pb-4">
           International Clients
         </h2>
-        <hr className="bg-sky-500 h-[1px] border-0 " />{" "}
+        <hr className="bg-[#33adb3] h-[1px] border-0 " />{" "}
       </div>{" "}
       <Swiper
         slidesPerView={1}
@@ -51,11 +51,11 @@ const InterNationalClients = () => {
         }}
         loop={true}
         modules={[Pagination, Navigation]}
-        className="Swiper text-white  cursor-pointer"
+        className="Swiper  cursor-pointer"
       >
         {clientsData.map(({ id, name, serviceOffered, location }) => (
           <SwiperSlide key={id}>
-            <div className="rounded-lg bg-sky-900 shadow-sky-500 shadow-lg  max-w-sm mx-auto my-16 h-56 text-sky-500 relative ">
+            <div className="rounded-lg bg-sky-900 shadow-sky-600 shadow-md  max-w-sm mx-auto my-16 h-56 text-[#33adb3] relative ">
               <div className="p-6">
                 <h5 className="mb-3 text-xl font-medium leading-tight">
                   {name}
@@ -63,7 +63,7 @@ const InterNationalClients = () => {
                 <p className="mb-4 text-sky-300 text-justify">
                   {serviceOffered}
                 </p>
-                <hr className="bg-sky-500 w-[88%] h-[1px] border-0 absolute bottom-12 " />
+                <hr className="bg-[#33adb3] w-[88%] h-[1px] border-0 absolute bottom-12 " />
                 <div className="flex items-center mt-2 absolute bottom-4  ">
                   <CiLocationOn size={18} className="mr-2" />
                   <p>{location}</p>

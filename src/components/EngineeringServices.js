@@ -76,10 +76,10 @@ const EngineeringServices = () => {
   return (
     <div
       name="Engineering Services"
-      className="w-full px-8 h-auto bg-sky-700 py-16 "
+      className="w-full px-8 h-auto bg-sky-950 py-16 "
     >
       <div className="flex mb-16">
-        <h2 className=" text-sky-500 mx-auto text-5xl font-bold border-b-[1px] border-sky-500 pb-4">
+        <h2 className=" text-[#33adb3] mx-auto text-5xl font-bold border-b-[1px] border-[#33adb3] pb-4">
           Engineering Services
         </h2>
       </div>
@@ -113,21 +113,19 @@ const EngineeringServices = () => {
               <SwiperSlide key={id}>
                 <div>
                   {" "}
-                  <div className="block rounded-lg bg-sky-900 shadow-sky-500 shadow-lg mb-16 w-full h-[270px]">
+                  <div className="block rounded-lg bg-sky-900 shadow-sky-600 shadow-md mb-16 w-full h-[270px]">
                     <div className="pt-6">
                       <img
                         src={imagePath}
                         alt="imageArea"
-                        className="h-32 w-40 border-[1px] border-sky-500 rounded-xl shadow-sky-500 shadow-md p-4 mx-auto "
+                        className="h-32 w-40 border-[1px] border-sky-700 rounded-xl shadow-sky-600 shadow-md p-4 mx-auto "
                       />
                     </div>
                     <div className="p-6 text-center">
-                      <h5 className="text-sky-500  mb-2 text-xl font-medium leading-tight dark:text-neutral-50">
+                      <h5 className="text-[#33adb3]  mb-2 text-xl font-medium leading-tight">
                         {name}
                       </h5>
-                      <p className="text-sky-200 mb-4  dark:text-neutral-200">
-                        {description}
-                      </p>
+                      <p className="text-sky-300 mb-4">{description}</p>
                     </div>
                   </div>
                 </div>

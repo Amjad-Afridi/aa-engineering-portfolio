@@ -27,16 +27,16 @@ const Contact = () => {
       );
   };
   const commonStyles =
-    "p-2 text-lg w-full border-solid border-b-[1px] border-sky-200 bg-transparent text-sky-200 rounded-md outline-none";
+    "p-2 text-lg w-full border-solid border-b-[1px] border-sky-300 bg-transparent text-sky-300 rounded-md outline-none";
   return (
     <div
       name="Contact Us"
-      className="w-full h-auto bg-sky-700 py-16 px-8 mx-auto "
+      className="w-full h-auto bg-sky-950 py-16 px-8 mx-auto "
     >
-      <div className="flex flex-col md:flex-row justify-center items-center gap-12 text-sky-200 ">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-12 text-sky-300 ">
         {/* location */}
         <div>
-          <h2 className="text-sky-500 text-4xl font-bold mb-8 border-b-[1px] border-sky-500 pb-4">
+          <h2 className="text-[#33adb3] text-4xl font-bold mb-8 border-b-[1px] border-[#33adb3] pb-4">
             Contact Us For More Information
           </h2>
           <div className="flex mb-4 items-center">
@@ -64,7 +64,7 @@ const Contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="flex flex-col p-8 gap-8 w-full md:w-1/3 bg-sky-900 shadow-sky-500 shadow-lg rounded-md h-full"
+          className="flex flex-col p-8 gap-8 w-full md:w-1/3 bg-sky-900 shadow-sky-600 shadow-md rounded-md h-full"
         >
           <div>
             <input
@@ -98,7 +98,7 @@ const Contact = () => {
             <textarea
               name="message"
               required
-              className="p-2 text-lg w-full border-solid border-[1px] border-sky-200 bg-transparent text-sky-200 rounded-md outline-none"
+              className="p-2 text-lg w-full border-solid border-[1px] border-sky-300 bg-transparent text-sky-300 rounded-md outline-none"
               rows="8"
               placeholder="Your message"
             ></textarea>
@@ -108,7 +108,7 @@ const Contact = () => {
             <input
               type="submit"
               value="Submit"
-              className="px-6 py-2 w-full text-sky-300 hover:bg-sky-300 font-bold bg-transparent hover:text-sky-700 delay-150 animation border-[1px] border-sky-300 rounded-md duration-500 hover:cursor-pointer "
+              className="px-6 py-2 w-full text-sky-300 hover:bg-sky-300 font-bold bg-transparent hover:text-sky-900 delay-150 animation border-[1px] border-sky-300 rounded-md duration-500 hover:cursor-pointer "
             />
           </div>
         </form>

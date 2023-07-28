@@ -1,17 +1,17 @@
 import React from "react";
 const About = () => {
   return (
-    <div name="About Us" className=" w-full px-8 h-auto bg-sky-700 py-16 ">
+    <div name="About Us" className=" w-full px-8 h-auto bg-sky-950 py-16 ">
       <div className="flex flex-col gap-16 ">
-        <h2 className=" text-sky-500 mx-auto text-5xl font-bold border-b-[1px] border-sky-500 pb-4">
+        <h2 className=" text-[#33adb3] mx-auto text-5xl font-bold border-b-[1px] border-[#33adb3] pb-4">
           About Us
         </h2>
         {/*  */}
         <ol className=" ">
-          <div className="flex flex-col gap-8 text-justify text-sky-500 max-w-screen-lg justify-center mx-auto ">
+          <div className="flex flex-col gap-8 text-justify text-[#33adb3] max-w-screen-lg justify-center mx-auto ">
             <div className="flex flex-col justify-center gap-2 ">
               <h4 className="font-bold text-lg pl-6">Introduction</h4>
-              <p className="text-sky-200 border-l-2 pl-6 border-sky-500 dark:border-sky-200">
+              <p className="text-sky-200 border-l-2 pl-6 border-[#33adb3] ">
                 Welcome to our company, a leading provider of yarn process
                 machines in the Textile sector. With a strong presence since
                 2007, we have been catering to the major players in the
@@ -24,7 +24,7 @@ const About = () => {
             </div>
             <div className="flex flex-col gap-4 ">
               <h4 className="font-bold text-lg pl-6">Our Services</h4>
-              <p className="text-sky-200 border-l-2 pl-6 border-sky-500 dark:border-sky-200">
+              <p className="text-sky-300 border-l-2 pl-6 border-[#33adb3]">
                 Our extensive range of products includes top-of-the-line
                 machinery for various stages of yarn processing. From Warping
                 Machines and Sizing Machines to Slasher Dyeing Machines and
@@ -42,7 +42,7 @@ const About = () => {
             </div>
             <div className="flex flex-col justify-center gap-2">
               <h4 className="text-lg font-bold pl-6">Our Preferences</h4>
-              <p className="text-sky-200 border-l-2 pl-6 border-sky-500 dark:border-sky-200">
+              <p className="text-sky-300 border-l-2 pl-6 border-[#33adb3]">
                 At our company, we prioritize customer satisfaction, striving to
                 deliver exceptional products and services that enhance your
                 productivity and profitability. We believe in building long-term
