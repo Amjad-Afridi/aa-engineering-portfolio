@@ -78,6 +78,7 @@ const Contact = () => {
           <div>
             <input
               required
+              name="mobile_num"
               type="text"
               placeholder="Contact Number"
               className={commonStyles}
