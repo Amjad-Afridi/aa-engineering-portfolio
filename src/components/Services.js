@@ -96,7 +96,7 @@ const Services = () => {
       className="w-full px-8 h-auto bg-sky-950 py-16 "
     >
       <div className="flex mb-16">
-        <h2 className=" text-[#33adb3] mx-auto text-5xl font-bold border-b-[1px] border-[#33adb3] pb-4">
+        <h2 className=" text-cyan-600 mx-auto text-5xl font-bold border-b-[1px] border-cyan-600 pb-4">
           Machines Services
         </h2>
       </div>
@@ -130,17 +130,17 @@ const Services = () => {
               <SwiperSlide key={id}>
                 <div>
                   {" "}
-                  <div className="block rounded-lg bg-sky-900 shadow-sky-600 shadow-md mb-16 w-full h-[470px]">
+                  <div className="block rounded-lg bg-sky-900 shadow-cyan-600 shadow-md mb-16 w-full h-[470px]">
                     <img
                       className="rounded-t-lg h-56 w-full object-cover"
                       src={imagePath}
                       alt="imageArea"
                     />
                     <div className="p-6">
-                      <h5 className="text-[#33adb3] mb-2 text-xl  leading-tight font-bold">
+                      <h5 className="text-cyan-600 mb-2 text-xl  leading-tight font-bold">
                         {name}
                       </h5>
-                      <p className="text-sky-300 mb-4 text-base  ">
+                      <p className="text-cyan-600 mb-4 text-base  ">
                         {description}
                       </p>
                     </div>

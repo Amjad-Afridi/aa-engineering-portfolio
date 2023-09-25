@@ -38,7 +38,7 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar container */}
-      <div className=" bg-sky-950  text-sky-300 w-full h-24">
+      <div className=" bg-sky-950  text-cyan-600 w-full h-24">
         <div className="flex items-center justify-between px-8 md:px-2 lg:px-8  h-full ">
           {/* logo section  */}
           <div>
@@ -60,7 +60,7 @@ const Navbar = () => {
                   delay={500}
                   isDynamic={true}
                   className="text-sm lg:text-lg hover:text-sky-950 text-center
-                  hover:bg-sky-300  hover:cursor-pointer p-2  rounded-md transition delay-100 duration-500 "
+                  hover:bg-cyan-600  hover:cursor-pointer p-2  rounded-md transition delay-100 duration-500 "
                 >
                   {name}
                 </Link>
@@ -100,11 +100,11 @@ const Navbar = () => {
                         duration={500}
                         delay={500}
                         isDynamic={true}
-                        className="text-lg text-sky-300 hover:text-sky-500 hover:cursor-pointer"
+                        className="text-lg text-cyan-600 hover:text-sky-500 hover:cursor-pointer"
                       >
                         {name}
                       </Link>
-                      <hr className="border-0 h-[1px] bg-sky-300" />
+                      <hr className="border-0 h-[1px] bg-cyan-600" />
                     </>
                   );
                 })}

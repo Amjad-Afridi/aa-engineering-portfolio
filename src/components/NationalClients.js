@@ -48,7 +48,7 @@ const NationalClients = () => {
       id: 6,
       name: "National Textile",
       serviceOffered:
-        "We have provided services such as Warping, Sizing ( Sukkur Muller Hakooba )",
+        "We have provided services such as Warping, Sizing ( Sucker Muller Hakooba )",
       location: "Karachi, Sindh",
     },
     {
@@ -69,7 +69,7 @@ const NationalClients = () => {
       id: 9,
       name: "Olympia Textiles ",
       serviceOffered:
-        "We have provided services such as Warping, Sizing ( Sukkur Muller )",
+        "We have provided services such as Warping, Sizing ( Sucker Muller )",
       location: "Karachi, Sindh",
     },
     {
@@ -107,7 +107,7 @@ const NationalClients = () => {
       id: 15,
       name: "Raj Textiles",
       serviceOffered:
-        "We have provided services such as Warping, Sizing ( Beninger & Sukkur Muller )",
+        "We have provided services such as Warping, Sizing ( Beninger & Sucker Muller )",
       location: "Lahore, Punjab",
     },
   ];
@@ -117,7 +117,7 @@ const NationalClients = () => {
       className=" w-full px-8 h-auto bg-sky-950 py-16 "
     >
       <div className="flex">
-        <h2 className=" text-[#33adb3] mx-auto text-5xl font-bold border-b-[1px] border-[#33adb3] pb-4">
+        <h2 className=" text-cyan-600 mx-auto text-5xl font-bold border-b-[1px] border-cyan-600 pb-4">
           National Clients
         </h2>
       </div>{" "}
@@ -147,15 +147,15 @@ const NationalClients = () => {
       >
         {clientsData.map(({ id, name, serviceOffered, location }) => (
           <SwiperSlide key={id}>
-            <div className="relative block rounded-lg bg-sky-900 shadow-sky-600 shadow-md my-16 h-60 text-[#33adb3]">
+            <div className="relative block rounded-lg bg-sky-900 shadow-cyan-600 shadow-md my-16 h-60 text-cyan-600">
               <div className="p-6 ">
                 <h5 className=" mb-3 text-xl font-medium leading-tight ">
                   {name}
                 </h5>
-                <p className="mb-4 text-sky-300 text-justify">
+                <p className="mb-4 text-cyan-600 text-justify">
                   {serviceOffered}
                 </p>
-                <hr className="bg-[#33adb3] w-[85%] h-[1px] border-0 absolute bottom-12 " />
+                <hr className="bg-cyan-600 w-[85%] h-[1px] border-0 absolute bottom-12 " />
                 <div className="flex items-center mt-2 absolute bottom-4  ">
                   <CiLocationOn size={18} className="mr-2" />
                   <p>{location}</p>

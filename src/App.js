@@ -6,17 +6,22 @@ import InternationalClients from "./components/InternationalClients";
 import Contact from "./components/Contact";
 import NationalClients from "./components/NationalClients";
 import EngineeringServices from "./components/EngineeringServices";
+import SalesMachines from "./components/SaleMachines";
+import Gallery from "./components/Gallery";
+import OngoingProjects from "./components/OngoingProjects";
 function App() {
   return (
     <>
       <Navbar />
-
       <Home />
       <About />
       <Services />
-      <EngineeringServices/>
+      <EngineeringServices />
       <NationalClients />
       <InternationalClients />
+      <OngoingProjects />
+      <SalesMachines />
+      <Gallery />
       <Contact />
     </>
   );

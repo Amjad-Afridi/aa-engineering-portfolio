@@ -79,7 +79,7 @@ const EngineeringServices = () => {
       className="w-full px-8 h-auto bg-sky-950 py-16 "
     >
       <div className="flex mb-16">
-        <h2 className=" text-[#33adb3] mx-auto text-5xl font-bold border-b-[1px] border-[#33adb3] pb-4">
+        <h2 className=" text-cyan-600 mx-auto text-5xl font-bold border-b-[1px] border-cyan-600 pb-4">
           Engineering Services
         </h2>
       </div>
@@ -113,27 +113,27 @@ const EngineeringServices = () => {
               <SwiperSlide key={id}>
                 <div>
                   {" "}
-                  <div className="block rounded-lg bg-sky-900 shadow-sky-600 shadow-md mb-16 w-full h-[270px]">
+                  <div className="block rounded-lg bg-sky-900 shadow-cyan-600 shadow-md mb-16 w-full h-[270px]">
                     <div className="pt-6">
                       {id === 6 ? (
                         <img
                           src={imagePath}
                           alt="imageArea"
-                          className="h-32 w-64 border-[1px] bg-sky-300 border-sky-600 rounded-xl shadow-sky-600 shadow-md p-4 mx-auto "
+                          className="h-32 w-64 border-[1px] bg-cyan-600 border-sky-600 rounded-xl shadow-cyan-600 shadow-md p-4 mx-auto "
                         />
                       ) : (
                         <img
                           src={imagePath}
                           alt="imageArea"
-                          className="h-32 w-40 border-[1px] bg-sky-300 border-sky-600 rounded-xl shadow-sky-600 shadow-md p-4 mx-auto "
+                          className="h-32 w-40 border-[1px] bg-cyan-600 border-sky-600 rounded-xl shadow-cyan-600 shadow-md p-4 mx-auto "
                         />
                       )}
                     </div>
                     <div className="p-6 text-center">
-                      <h5 className="text-[#33adb3]  mb-2 text-xl font-medium leading-tight">
+                      <h5 className="text-cyan-600  mb-2 text-xl font-medium leading-tight">
                         {name}
                       </h5>
-                      <p className="text-sky-300 mb-4">{description}</p>
+                      <p className="text-cyan-600 mb-4">{description}</p>
                     </div>
                   </div>
                 </div>
